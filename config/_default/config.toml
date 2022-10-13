@@ -1,4 +1,4 @@
-baseurl = "https://doks.netlify.app/"
+baseurl = "https://www.lovecode.icu/"
 canonifyURLs = false
 disableAliases = true
 disableHugoGeneratorInject = true
