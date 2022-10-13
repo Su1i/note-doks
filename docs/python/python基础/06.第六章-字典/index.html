@@ -1,0 +1,317 @@
+<!doctype html><html lang=en-us><head><meta charset=utf-8><meta http-equiv=x-ua-compatible content="ie=edge"><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><link rel=preload as=font href=www.lovecode.icu/fonts/vendor/jost/jost-v4-latin-regular.woff2 type=font/woff2 crossorigin><link rel=preload as=font href=www.lovecode.icu/fonts/vendor/jost/jost-v4-latin-500.woff2 type=font/woff2 crossorigin><link rel=preload as=font href=www.lovecode.icu/fonts/vendor/jost/jost-v4-latin-700.woff2 type=font/woff2 crossorigin><script>(()=>{var t=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches,e=localStorage.getItem("theme");t&&e===null&&(localStorage.setItem("theme","dark"),document.documentElement.setAttribute("data-dark-mode","")),t&&e==="dark"&&document.documentElement.setAttribute("data-dark-mode",""),e==="dark"&&document.documentElement.setAttribute("data-dark-mode","")})()</script><link rel=stylesheet href=www.lovecode.icu/www.lovecode.icu/main.5d39a4c48bc2fe901d4cf040f23a24852bc80903c0d1582b216263cb44eb4fcb1ef62587de9063e9280cf4be466f9a9914b32f6b687020888a948268359fe54c.css integrity="sha512-XTmkxIvC/pAdTPBA8jokhSvICQPA0VgrIWJjy0TrT8se9iWH3pBj6SgM9L5Gb5qZFLMva2hwIIiKlIJoNZ/lTA==" crossorigin=anonymous><noscript><style>img.lazyload{display:none}</style></noscript><meta name=robots content="index, follow"><meta name=googlebot content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"><meta name=bingbot content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"><title>06.第六章 字典 - 菜鸡的自我救赎</title><meta name=description content="Help Doks."><link rel=canonical href=www.lovecode.icu/docs/python/python%E5%9F%BA%E7%A1%80/06.%E7%AC%AC%E5%85%AD%E7%AB%A0-%E5%AD%97%E5%85%B8/><meta property="og:locale" content="zh_CN"><meta property="og:type" content="article"><meta property="og:title" content="06.第六章 字典"><meta property="og:description" content="Help Doks."><meta property="og:url" content="www.lovecode.icu/docs/python/python%E5%9F%BA%E7%A1%80/06.%E7%AC%AC%E5%85%AD%E7%AB%A0-%E5%AD%97%E5%85%B8/"><meta property="og:site_name" content="菜鸡的自我救赎"><meta property="article:published_time" content="2020-10-06T08:49:15+00:00"><meta property="article:modified_time" content="2020-10-06T08:49:15+00:00"><meta property="og:image" content="www.lovecode.icu/doks.png"><meta property="og:image:alt" content="菜鸡的自我救赎"><meta name=twitter:card content="summary_large_image"><meta name=twitter:site content="@getdoks"><meta name=twitter:creator content="@henkverlinde"><meta name=twitter:title content="06.第六章 字典"><meta name=twitter:description content="Help Doks."><meta name=twitter:image content="www.lovecode.icu/doks.png"><meta name=twitter:image:alt content="06.第六章 字典"><script type=application/ld+json>{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"/#/schema/organization/1","name":"Doks","url":"/","sameAs":["https://twitter.com/getdoks","https://github.com/h-enk/doks"],"logo":{"@type":"ImageObject","@id":"/#/schema/image/1","url":"/logo-doks.png","width":512,"height":512,"caption":"Doks"},"image":{"@id":"/#/schema/image/1"}},{"@type":"WebSite","@id":"/#/schema/website/1","url":"/","name":"菜鸡的自我救赎","description":"后端萌新的个人知识库","publisher":{"@id":"/#/schema/organization/1"}},{"@type":"WebPage","@id":"www.lovecode.icu/docs/python/python%E5%9F%BA%E7%A1%80/06.%E7%AC%AC%E5%85%AD%E7%AB%A0-%E5%AD%97%E5%85%B8/","url":"www.lovecode.icu/docs/python/python%E5%9F%BA%E7%A1%80/06.%E7%AC%AC%E5%85%AD%E7%AB%A0-%E5%AD%97%E5%85%B8/","name":"06.第六章 字典","description":"Help Doks.","isPartOf":{"@id":"/#/schema/website/1"},"about":{"@id":"/#/schema/organization/1"},"datePublished":"2020-10-06T08:49:15CET","dateModified":"2020-10-06T08:49:15CET","breadcrumb":{"@id":"www.lovecode.icu/docs/python/python%E5%9F%BA%E7%A1%80/06.%E7%AC%AC%E5%85%AD%E7%AB%A0-%E5%AD%97%E5%85%B8/#/schema/breadcrumb/1"},"primaryImageOfPage":{"@id":"www.lovecode.icu/docs/python/python%E5%9F%BA%E7%A1%80/06.%E7%AC%AC%E5%85%AD%E7%AB%A0-%E5%AD%97%E5%85%B8/#/schema/image/2"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["www.lovecode.icu/docs/python/python%E5%9F%BA%E7%A1%80/06.%E7%AC%AC%E5%85%AD%E7%AB%A0-%E5%AD%97%E5%85%B8/"]}]},{"@type":"BreadcrumbList","@id":"www.lovecode.icu/docs/python/python%E5%9F%BA%E7%A1%80/06.%E7%AC%AC%E5%85%AD%E7%AB%A0-%E5%AD%97%E5%85%B8/#/schema/breadcrumb/1","name":"Breadcrumbs","itemListElement":[{"@type":"ListItem","position":1,"item":{"@type":"WebPage","@id":"www.lovecode.icu","url":"www.lovecode.icu","name":"Home"}},{"@type":"ListItem","position":3,"item":{"@type":"WebPage","@id":"www.lovecode.icu/docs/","url":"www.lovecode.icu/docs/","name":"Docs"}},{"@type":"ListItem","position":4,"item":{"@type":"WebPage","@id":"www.lovecode.icu/docs/python/","url":"www.lovecode.icu/docs/python/","name":"Python"}},{"@type":"ListItem","position":5,"item":{"@type":"WebPage","@id":"www.lovecode.icu/docs/python/python%E5%9F%BA%E7%A1%80/","url":"www.lovecode.icu/docs/python/python%E5%9F%BA%E7%A1%80/","name":"Python% E5%9 F% Ba% E7% A1%80"}},{"@type":"ListItem","position":6,"item":{"@id":"www.lovecode.icu/docs/python/python%E5%9F%BA%E7%A1%80/06.%E7%AC%AC%E5%85%AD%E7%AB%A0-%E5%AD%97%E5%85%B8/"}}]},{"@context":"https://schema.org","@graph":[{"@type":"Article","@id":"/#/schema/article/1","headline":"06.第六章 字典","description":"Help Doks.","isPartOf":{"@id":"www.lovecode.icu/docs/python/python%E5%9F%BA%E7%A1%80/06.%E7%AC%AC%E5%85%AD%E7%AB%A0-%E5%AD%97%E5%85%B8/"},"mainEntityOfPage":{"@id":"www.lovecode.icu/docs/python/python%E5%9F%BA%E7%A1%80/06.%E7%AC%AC%E5%85%AD%E7%AB%A0-%E5%AD%97%E5%85%B8/"},"datePublished":"2020-10-06T08:49:15CET","dateModified":"2020-10-06T08:49:15CET","author":{"@id":"/#/schema/person/2"},"publisher":{"@id":"/#/schema/organization/1"},"image":{"@id":"www.lovecode.icu/docs/python/python%E5%9F%BA%E7%A1%80/06.%E7%AC%AC%E5%85%AD%E7%AB%A0-%E5%AD%97%E5%85%B8/#/schema/image/2"}}]},{"@context":"https://schema.org","@graph":[{"@type":"Person","@id":"/#/schema/person/2","name":"Henk Verlinde","sameAs":["https://twitter.com/henkverlinde","https://www.linkedin.com/in/henkverlinde/","https://github.com/h-enk"]}]},{"@context":"https://schema.org","@graph":[{"@type":"ImageObject","@id":"www.lovecode.icu/docs/python/python%E5%9F%BA%E7%A1%80/06.%E7%AC%AC%E5%85%AD%E7%AB%A0-%E5%AD%97%E5%85%B8/#/schema/image/2","url":"www.lovecode.icu/doks.png","contentUrl":"www.lovecode.icu/doks.png","caption":"06.第六章 字典"}]}]}</script><meta name=theme-color content="#fff"><link rel=icon href=www.lovecode.icu/favicon.ico sizes=any><link rel=icon type=image/svg+xml href=www.lovecode.icu/favicon.svg><link rel=apple-touch-icon sizes=180x180 href=www.lovecode.icu/apple-touch-icon.png><link rel=icon type=image/png sizes=32x32 href=www.lovecode.icu/favicon-32x32.png><link rel=icon type=image/png sizes=16x16 href=www.lovecode.icu/favicon-16x16.png><link rel=manifest crossorigin=use-credentials href=www.lovecode.icu/site.webmanifest></head><body class="docs single"><div class=sticky-top><div class=header-bar></div><header class="navbar navbar-expand-lg navbar-light doks-navbar"><nav class="container-xxl flex-wrap flex-lg-nowrap" aria-label="Main navigation"><a class="navbar-brand order-0" href=www.lovecode.icu/ aria-label=菜鸡的自我救赎>菜鸡的自我救赎</a>
+<button class="btn btn-link order-0 ms-auto d-lg-none" type=button data-bs-toggle=offcanvas data-bs-target=#offcanvasExample aria-controls=offcanvasExample><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-more-horizontal"><circle cx="12" cy="12" r="1"/><circle cx="19" cy="12" r="1"/><circle cx="5" cy="12" r="1"/></svg></button><div class="offcanvas offcanvas-start d-lg-none" tabindex=-1 id=offcanvasExample aria-labelledby=offcanvasExampleLabel><div class=header-bar></div><div class=offcanvas-header><h5 class=offcanvas-title id=offcanvasExampleLabel>Browse docs</h5><button type=button class=btn-close data-bs-dismiss=offcanvas aria-label=Close></button></div><div class=offcanvas-body><aside class="doks-sidebar mt-n3"><nav id=doks-docs-nav aria-label="Tertiary navigation"><ul class="list-unstyled collapsible-sidebar"><li class=mb-1><button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle=collapse data-bs-target=#section-db82544b8ffa8553f7150ded7d592ee9 aria-expanded=false>
+Pwn</button><div class=collapse id=section-db82544b8ffa8553f7150ded7d592ee9><ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small"></ul></div></li><li class=mb-1><button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle=collapse data-bs-target=#section-a7f5f35426b927411fc9231b56382173 aria-expanded=true>
+Python</button><div class="collapse show" id=section-a7f5f35426b927411fc9231b56382173><ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small"><li class="my-1 ms-3"><button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle=collapse data-bs-target=#section-ef0f93c83e374876a61da0d4d16f36ab aria-expanded=false>
+Django</button><div class=collapse id=section-ef0f93c83e374876a61da0d4d16f36ab><ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small"><li><a class="docs-link rounded" href=www.lovecode.icu/docs/python/django/django-orm/>Django ORM</a></li><li><a class="docs-link rounded" href=www.lovecode.icu/docs/python/django/django%E8%AF%B7%E6%B1%82%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F%E6%B5%81%E7%A8%8B%E5%9B%BE/>Django请求生命周期流程图</a></li><li><a class="docs-link rounded" href=www.lovecode.icu/docs/python/django/fbv%E4%B8%8Ecbv/>FBV与CBV</a></li><li><a class="docs-link rounded" href=www.lovecode.icu/docs/python/django/request%E5%AF%B9%E8%B1%A1%E6%96%B9%E6%B3%95%E5%88%9D%E8%AF%86/>request对象方法初识</a></li><li><a class="docs-link rounded" href=www.lovecode.icu/docs/python/django/%E8%B7%AF%E7%94%B1%E5%B1%82/>路由层</a></li><li><a class="docs-link rounded" href=www.lovecode.icu/docs/python/django/%E8%BF%9E%E6%8E%A5%E6%95%B0%E6%8D%AE%E5%BA%93/>连接数据库</a></li><li><a class="docs-link rounded" href=www.lovecode.icu/docs/python/django/%E9%9D%99%E6%80%81%E6%96%87%E4%BB%B6%E9%85%8D%E7%BD%AE/>静态文件配置</a></li></ul></div></li><li class="my-1 ms-3"><button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle=collapse data-bs-target=#section-588fe6e45fdc1b65d88f23fef50d7d4d aria-expanded=true>
+Python基础</button><div class="collapse show" id=section-588fe6e45fdc1b65d88f23fef50d7d4d><ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small"><li><a class="docs-link rounded" href=www.lovecode.icu/docs/python/python%E5%9F%BA%E7%A1%80/01.%E7%AC%AC%E4%B8%80%E7%AB%A0-%E8%B5%B7%E6%AD%A5/>01.第一章 起步</a></li><li><a class="docs-link rounded" href=www.lovecode.icu/docs/python/python%E5%9F%BA%E7%A1%80/02.%E7%AC%AC%E4%BA%8C%E7%AB%A0-%E5%8F%98%E9%87%8F%E5%92%8C%E7%AE%80%E5%8D%95%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/>02.第二章 变量和简单的数据结构</a></li><li><a class="docs-link rounded" href=www.lovecode.icu/docs/python/python%E5%9F%BA%E7%A1%80/03.%E7%AC%AC%E4%B8%89%E7%AB%A0-%E5%88%97%E8%A1%A8%E7%AE%80%E4%BB%8B/>03.第三章 列表简介</a></li><li><a class="docs-link rounded" href=www.lovecode.icu/docs/python/python%E5%9F%BA%E7%A1%80/04.%E7%AC%AC%E5%9B%9B%E7%AB%A0-%E6%93%8D%E4%BD%9C%E5%88%97%E8%A1%A8/>04.第四章 操作列表</a></li><li><a class="docs-link rounded" href=www.lovecode.icu/docs/python/python%E5%9F%BA%E7%A1%80/05.%E7%AC%AC%E4%BA%94%E7%AB%A0-if%E8%AF%AD%E5%8F%A5/>05.第五章 if语句</a></li><li><a class="docs-link rounded active" href=www.lovecode.icu/docs/python/python%E5%9F%BA%E7%A1%80/06.%E7%AC%AC%E5%85%AD%E7%AB%A0-%E5%AD%97%E5%85%B8/>06.第六章 字典</a></li></ul></div></li></ul></div></li><li class=mb-1><button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle=collapse data-bs-target=#section-3e90c5117dc0fe9d71410e448d766e52 aria-expanded=false>
+常用工具</button><div class=collapse id=section-3e90c5117dc0fe9d71410e448d766e52><ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small"><li class="my-1 ms-3"><button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle=collapse data-bs-target=#section-e206a54e97690cce50cc872dd70ee896 aria-expanded=false>
+linux</button><div class=collapse id=section-e206a54e97690cce50cc872dd70ee896><ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small"><li><a class="docs-link rounded" href=www.lovecode.icu/docs/tools/linux/01.%E5%AE%89%E8%A3%85linux%E7%B3%BB%E7%BB%9F%E7%9A%84%E5%A4%9A%E7%A7%8D%E6%96%B9%E5%BC%8F/>安装linux系统的多种方式</a></li></ul></div></li></ul></div></li></ul></nav></aside></div></div><button class="btn btn-menu order-2 d-block d-lg-none" type=button data-bs-toggle=offcanvas data-bs-target=#offcanvasDoks aria-controls=offcanvasDoks aria-label="Open main menu"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu"><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="18" x2="21" y2="18"/></svg></button><div class="offcanvas offcanvas-end border-0 py-lg-1" tabindex=-1 id=offcanvasDoks data-bs-backdrop=true aria-labelledby=offcanvasDoksLabel><div class="header-bar d-lg-none"></div><div class="offcanvas-header d-lg-none"><h2 class="h5 offcanvas-title ps-2" id=offcanvasDoksLabel><a class=text-dark href=www.lovecode.icu/>菜鸡的自我救赎</a></h2><button type=button class="btn-close text-reset me-2" data-bs-dismiss=offcanvas aria-label="Close main menu"></button></div><div class="offcanvas-body p-4 p-lg-0"><ul class="nav flex-column flex-lg-row align-items-lg-center mt-2 mt-lg-0 ms-lg-2 me-lg-auto"><li class=nav-item><a class="nav-link ps-0 py-1" href=www.lovecode.icu/docs/>知识库</a></li><li class=nav-item><a class="nav-link ps-0 py-1" href=www.lovecode.icu/blog/>博客</a></li><li class="nav-item dropdown"><a class="nav-link dropdown-toggle ps-0 py-1" href=# id=navbarDropdownMenuLink role=button data-bs-toggle=dropdown aria-expanded=false>项目文档
+<span class=dropdown-caret><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-down"><polyline points="6 9 12 15 18 9"/></svg></span></a><ul class="dropdown-menu dropdown-menu-main shadow rounded border-0" aria-labelledby=navbarDropdownMenuLink><li><a class=dropdown-item href=www.lovecode.icu/docs/>劝学网课系统-Java</a></li></ul></li></ul><hr class="text-black-50 my-4 d-lg-none"><form class="doks-search position-relative flex-grow-1 ms-lg-auto me-lg-2"><input id=search class="form-control is-search" type=search placeholder="Search docs..." aria-label="Search docs..." autocomplete=off><div id=suggestions class="shadow bg-white rounded d-none"></div></form><hr class="text-black-50 my-4 d-lg-none"><ul class="nav flex-column flex-lg-row"><li class=nav-item><a class="nav-link social-link" href=https://github.com/Su1i><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37.0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44.0 0020 4.77 5.07 5.07.0 0019.91 1S18.73.65 16 2.48a13.38 13.38.0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07.0 005 4.77 5.44 5.44.0 003.5 8.55c0 5.42 3.3 6.61 6.44 7A3.37 3.37.0 009 18.13V22"/></svg><small class="ms-2 d-lg-none">GitHub</small></a></li></ul><hr class="text-black-50 my-4 d-lg-none"><button id=mode class="btn btn-link" type=button aria-label="Toggle user interface mode">
+<span class=toggle-dark><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-moon"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg></span><span class=toggle-light><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-sun"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg></span></button></div></div></nav></header></div><div class=container-xxl><aside class=doks-sidebar><nav id=doks-docs-nav class="collapse d-lg-none" aria-label="Tertiary navigation"><ul class="list-unstyled collapsible-sidebar"><li class=mb-1><button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle=collapse data-bs-target=#section-db82544b8ffa8553f7150ded7d592ee9 aria-expanded=false>
+Pwn</button><div class=collapse id=section-db82544b8ffa8553f7150ded7d592ee9><ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small"></ul></div></li><li class=mb-1><button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle=collapse data-bs-target=#section-a7f5f35426b927411fc9231b56382173 aria-expanded=true>
+Python</button><div class="collapse show" id=section-a7f5f35426b927411fc9231b56382173><ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small"><li class="my-1 ms-3"><button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle=collapse data-bs-target=#section-ef0f93c83e374876a61da0d4d16f36ab aria-expanded=false>
+Django</button><div class=collapse id=section-ef0f93c83e374876a61da0d4d16f36ab><ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small"><li><a class="docs-link rounded" href=www.lovecode.icu/docs/python/django/django-orm/>Django ORM</a></li><li><a class="docs-link rounded" href=www.lovecode.icu/docs/python/django/django%E8%AF%B7%E6%B1%82%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F%E6%B5%81%E7%A8%8B%E5%9B%BE/>Django请求生命周期流程图</a></li><li><a class="docs-link rounded" href=www.lovecode.icu/docs/python/django/fbv%E4%B8%8Ecbv/>FBV与CBV</a></li><li><a class="docs-link rounded" href=www.lovecode.icu/docs/python/django/request%E5%AF%B9%E8%B1%A1%E6%96%B9%E6%B3%95%E5%88%9D%E8%AF%86/>request对象方法初识</a></li><li><a class="docs-link rounded" href=www.lovecode.icu/docs/python/django/%E8%B7%AF%E7%94%B1%E5%B1%82/>路由层</a></li><li><a class="docs-link rounded" href=www.lovecode.icu/docs/python/django/%E8%BF%9E%E6%8E%A5%E6%95%B0%E6%8D%AE%E5%BA%93/>连接数据库</a></li><li><a class="docs-link rounded" href=www.lovecode.icu/docs/python/django/%E9%9D%99%E6%80%81%E6%96%87%E4%BB%B6%E9%85%8D%E7%BD%AE/>静态文件配置</a></li></ul></div></li><li class="my-1 ms-3"><button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle=collapse data-bs-target=#section-588fe6e45fdc1b65d88f23fef50d7d4d aria-expanded=true>
+Python基础</button><div class="collapse show" id=section-588fe6e45fdc1b65d88f23fef50d7d4d><ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small"><li><a class="docs-link rounded" href=www.lovecode.icu/docs/python/python%E5%9F%BA%E7%A1%80/01.%E7%AC%AC%E4%B8%80%E7%AB%A0-%E8%B5%B7%E6%AD%A5/>01.第一章 起步</a></li><li><a class="docs-link rounded" href=www.lovecode.icu/docs/python/python%E5%9F%BA%E7%A1%80/02.%E7%AC%AC%E4%BA%8C%E7%AB%A0-%E5%8F%98%E9%87%8F%E5%92%8C%E7%AE%80%E5%8D%95%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/>02.第二章 变量和简单的数据结构</a></li><li><a class="docs-link rounded" href=www.lovecode.icu/docs/python/python%E5%9F%BA%E7%A1%80/03.%E7%AC%AC%E4%B8%89%E7%AB%A0-%E5%88%97%E8%A1%A8%E7%AE%80%E4%BB%8B/>03.第三章 列表简介</a></li><li><a class="docs-link rounded" href=www.lovecode.icu/docs/python/python%E5%9F%BA%E7%A1%80/04.%E7%AC%AC%E5%9B%9B%E7%AB%A0-%E6%93%8D%E4%BD%9C%E5%88%97%E8%A1%A8/>04.第四章 操作列表</a></li><li><a class="docs-link rounded" href=www.lovecode.icu/docs/python/python%E5%9F%BA%E7%A1%80/05.%E7%AC%AC%E4%BA%94%E7%AB%A0-if%E8%AF%AD%E5%8F%A5/>05.第五章 if语句</a></li><li><a class="docs-link rounded active" href=www.lovecode.icu/docs/python/python%E5%9F%BA%E7%A1%80/06.%E7%AC%AC%E5%85%AD%E7%AB%A0-%E5%AD%97%E5%85%B8/>06.第六章 字典</a></li></ul></div></li></ul></div></li><li class=mb-1><button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle=collapse data-bs-target=#section-3e90c5117dc0fe9d71410e448d766e52 aria-expanded=false>
+常用工具</button><div class=collapse id=section-3e90c5117dc0fe9d71410e448d766e52><ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small"><li class="my-1 ms-3"><button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle=collapse data-bs-target=#section-e206a54e97690cce50cc872dd70ee896 aria-expanded=false>
+linux</button><div class=collapse id=section-e206a54e97690cce50cc872dd70ee896><ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small"><li><a class="docs-link rounded" href=www.lovecode.icu/docs/tools/linux/01.%E5%AE%89%E8%A3%85linux%E7%B3%BB%E7%BB%9F%E7%9A%84%E5%A4%9A%E7%A7%8D%E6%96%B9%E5%BC%8F/>安装linux系统的多种方式</a></li></ul></div></li></ul></div></li></ul></nav></aside></div><div class="wrap container-xxl" role=document><div class=content><div class="row flex-xl-nowrap"><div class="col-lg-5 col-xl-4 docs-sidebar d-none d-lg-block"><nav class=docs-links aria-label="Main navigation"><ul class="list-unstyled collapsible-sidebar"><li class=mb-1><button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle=collapse data-bs-target=#section-db82544b8ffa8553f7150ded7d592ee9 aria-expanded=false>
+Pwn</button><div class=collapse id=section-db82544b8ffa8553f7150ded7d592ee9><ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small"></ul></div></li><li class=mb-1><button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle=collapse data-bs-target=#section-a7f5f35426b927411fc9231b56382173 aria-expanded=true>
+Python</button><div class="collapse show" id=section-a7f5f35426b927411fc9231b56382173><ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small"><li class="my-1 ms-3"><button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle=collapse data-bs-target=#section-ef0f93c83e374876a61da0d4d16f36ab aria-expanded=false>
+Django</button><div class=collapse id=section-ef0f93c83e374876a61da0d4d16f36ab><ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small"><li><a class="docs-link rounded" href=www.lovecode.icu/docs/python/django/django-orm/>Django ORM</a></li><li><a class="docs-link rounded" href=www.lovecode.icu/docs/python/django/django%E8%AF%B7%E6%B1%82%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F%E6%B5%81%E7%A8%8B%E5%9B%BE/>Django请求生命周期流程图</a></li><li><a class="docs-link rounded" href=www.lovecode.icu/docs/python/django/fbv%E4%B8%8Ecbv/>FBV与CBV</a></li><li><a class="docs-link rounded" href=www.lovecode.icu/docs/python/django/request%E5%AF%B9%E8%B1%A1%E6%96%B9%E6%B3%95%E5%88%9D%E8%AF%86/>request对象方法初识</a></li><li><a class="docs-link rounded" href=www.lovecode.icu/docs/python/django/%E8%B7%AF%E7%94%B1%E5%B1%82/>路由层</a></li><li><a class="docs-link rounded" href=www.lovecode.icu/docs/python/django/%E8%BF%9E%E6%8E%A5%E6%95%B0%E6%8D%AE%E5%BA%93/>连接数据库</a></li><li><a class="docs-link rounded" href=www.lovecode.icu/docs/python/django/%E9%9D%99%E6%80%81%E6%96%87%E4%BB%B6%E9%85%8D%E7%BD%AE/>静态文件配置</a></li></ul></div></li><li class="my-1 ms-3"><button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle=collapse data-bs-target=#section-588fe6e45fdc1b65d88f23fef50d7d4d aria-expanded=true>
+Python基础</button><div class="collapse show" id=section-588fe6e45fdc1b65d88f23fef50d7d4d><ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small"><li><a class="docs-link rounded" href=www.lovecode.icu/docs/python/python%E5%9F%BA%E7%A1%80/01.%E7%AC%AC%E4%B8%80%E7%AB%A0-%E8%B5%B7%E6%AD%A5/>01.第一章 起步</a></li><li><a class="docs-link rounded" href=www.lovecode.icu/docs/python/python%E5%9F%BA%E7%A1%80/02.%E7%AC%AC%E4%BA%8C%E7%AB%A0-%E5%8F%98%E9%87%8F%E5%92%8C%E7%AE%80%E5%8D%95%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/>02.第二章 变量和简单的数据结构</a></li><li><a class="docs-link rounded" href=www.lovecode.icu/docs/python/python%E5%9F%BA%E7%A1%80/03.%E7%AC%AC%E4%B8%89%E7%AB%A0-%E5%88%97%E8%A1%A8%E7%AE%80%E4%BB%8B/>03.第三章 列表简介</a></li><li><a class="docs-link rounded" href=www.lovecode.icu/docs/python/python%E5%9F%BA%E7%A1%80/04.%E7%AC%AC%E5%9B%9B%E7%AB%A0-%E6%93%8D%E4%BD%9C%E5%88%97%E8%A1%A8/>04.第四章 操作列表</a></li><li><a class="docs-link rounded" href=www.lovecode.icu/docs/python/python%E5%9F%BA%E7%A1%80/05.%E7%AC%AC%E4%BA%94%E7%AB%A0-if%E8%AF%AD%E5%8F%A5/>05.第五章 if语句</a></li><li><a class="docs-link rounded active" href=www.lovecode.icu/docs/python/python%E5%9F%BA%E7%A1%80/06.%E7%AC%AC%E5%85%AD%E7%AB%A0-%E5%AD%97%E5%85%B8/>06.第六章 字典</a></li></ul></div></li></ul></div></li><li class=mb-1><button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle=collapse data-bs-target=#section-3e90c5117dc0fe9d71410e448d766e52 aria-expanded=false>
+常用工具</button><div class=collapse id=section-3e90c5117dc0fe9d71410e448d766e52><ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small"><li class="my-1 ms-3"><button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle=collapse data-bs-target=#section-e206a54e97690cce50cc872dd70ee896 aria-expanded=false>
+linux</button><div class=collapse id=section-e206a54e97690cce50cc872dd70ee896><ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small"><li><a class="docs-link rounded" href=www.lovecode.icu/docs/tools/linux/01.%E5%AE%89%E8%A3%85linux%E7%B3%BB%E7%BB%9F%E7%9A%84%E5%A4%9A%E7%A7%8D%E6%96%B9%E5%BC%8F/>安装linux系统的多种方式</a></li></ul></div></li></ul></div></li></ul></nav></div><nav class="docs-toc d-none d-xl-block col-xl-3" aria-label="Secondary navigation"><div class=d-xl-none><button class="btn btn-outline-primary btn-sm doks-toc-toggle collapsed" type=button data-bs-toggle=collapse data-bs-target=#onThisPage aria-controls=doks-docs-nav aria-expanded=false aria-label="Toggle On this page navigation">
+<span>On this page</span>
+<span><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" class="doks doks-expand" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><title>Expand</title><polyline points="7 13 12 18 17 13"/><polyline points="7 6 12 11 17 6"/></svg><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" class="doks doks-collapse" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><title>Collapse</title><polyline points="17 11 12 6 7 11"/><polyline points="17 18 12 13 7 18"/></svg></span></button><div class=collapse id=onThisPage><div class="card card-body mt-3 py-1"><div class=page-links><nav id=TableOfContents><ul><li><a href=#61-一个简单的字典>6.1 一个简单的字典</a></li><li><a href=#62-使用字典>6.2 使用字典</a><ul><li><a href=#621-访问字典中的值>6.2.1 访问字典中的值</a></li><li><a href=#622-添加键-值对>6.2.2 添加键-值对</a></li><li><a href=#623-先创建一个空字典>6.2.3 先创建一个空字典</a></li><li><a href=#624-修改字典中的值>6.2.4 修改字典中的值</a></li><li><a href=#625-删除键-值对>6.2.5 删除键-值对</a></li><li><a href=#626-由类似对象组成的字典>6.2.6 由类似对象组成的字典</a></li></ul></li><li><a href=#63-遍历字典>6.3 遍历字典</a><ul><li><a href=#631-遍历所有的键-值对>6.3.1 遍历所有的键-值对</a></li><li><a href=#632-遍历字典中的所有键>6.3.2 遍历字典中的所有键</a></li><li><a href=#633-按顺序遍历字典中的所有键>6.3.3 按顺序遍历字典中的所有键</a></li><li><a href=#634-遍历字典中的所有值>6.3.4 遍历字典中的所有值</a></li></ul></li><li><a href=#64-嵌套>6.4 嵌套</a><ul><li><a href=#641-字典列表>6.4.1 字典列表</a></li><li><a href=#642-在字典中存储列表>6.4.2 在字典中存储列表</a></li><li><a href=#643-在字典中存储字典>6.4.3 在字典中存储字典</a></li></ul></li><li><a href=#65-小结>6.5 小结</a></li></ul></nav></div></div></div></div><div class="page-links d-none d-xl-block"><h3>On this page</h3><nav id=TableOfContents><ul><li><a href=#61-一个简单的字典>6.1 一个简单的字典</a></li><li><a href=#62-使用字典>6.2 使用字典</a><ul><li><a href=#621-访问字典中的值>6.2.1 访问字典中的值</a></li><li><a href=#622-添加键-值对>6.2.2 添加键-值对</a></li><li><a href=#623-先创建一个空字典>6.2.3 先创建一个空字典</a></li><li><a href=#624-修改字典中的值>6.2.4 修改字典中的值</a></li><li><a href=#625-删除键-值对>6.2.5 删除键-值对</a></li><li><a href=#626-由类似对象组成的字典>6.2.6 由类似对象组成的字典</a></li></ul></li><li><a href=#63-遍历字典>6.3 遍历字典</a><ul><li><a href=#631-遍历所有的键-值对>6.3.1 遍历所有的键-值对</a></li><li><a href=#632-遍历字典中的所有键>6.3.2 遍历字典中的所有键</a></li><li><a href=#633-按顺序遍历字典中的所有键>6.3.3 按顺序遍历字典中的所有键</a></li><li><a href=#634-遍历字典中的所有值>6.3.4 遍历字典中的所有值</a></li></ul></li><li><a href=#64-嵌套>6.4 嵌套</a><ul><li><a href=#641-字典列表>6.4.1 字典列表</a></li><li><a href=#642-在字典中存储列表>6.4.2 在字典中存储列表</a></li><li><a href=#643-在字典中存储字典>6.4.3 在字典中存储字典</a></li></ul></li><li><a href=#65-小结>6.5 小结</a></li></ul></nav></div></nav><main class="docs-content col-lg-11 col-xl-9 mx-xl-auto"><h1>06.第六章 字典</h1><p class=lead></p><nav class=d-xl-none aria-label="Quaternary navigation"><div class=d-xl-none><button class="btn btn-outline-primary btn-sm doks-toc-toggle collapsed" type=button data-bs-toggle=collapse data-bs-target=#onThisPage aria-controls=doks-docs-nav aria-expanded=false aria-label="Toggle On this page navigation">
+<span>On this page</span>
+<span><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" class="doks doks-expand" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><title>Expand</title><polyline points="7 13 12 18 17 13"/><polyline points="7 6 12 11 17 6"/></svg><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" class="doks doks-collapse" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><title>Collapse</title><polyline points="17 11 12 6 7 11"/><polyline points="17 18 12 13 7 18"/></svg></span></button><div class=collapse id=onThisPage><div class="card card-body mt-3 py-1"><div class=page-links><nav id=TableOfContents><ul><li><a href=#61-一个简单的字典>6.1 一个简单的字典</a></li><li><a href=#62-使用字典>6.2 使用字典</a><ul><li><a href=#621-访问字典中的值>6.2.1 访问字典中的值</a></li><li><a href=#622-添加键-值对>6.2.2 添加键-值对</a></li><li><a href=#623-先创建一个空字典>6.2.3 先创建一个空字典</a></li><li><a href=#624-修改字典中的值>6.2.4 修改字典中的值</a></li><li><a href=#625-删除键-值对>6.2.5 删除键-值对</a></li><li><a href=#626-由类似对象组成的字典>6.2.6 由类似对象组成的字典</a></li></ul></li><li><a href=#63-遍历字典>6.3 遍历字典</a><ul><li><a href=#631-遍历所有的键-值对>6.3.1 遍历所有的键-值对</a></li><li><a href=#632-遍历字典中的所有键>6.3.2 遍历字典中的所有键</a></li><li><a href=#633-按顺序遍历字典中的所有键>6.3.3 按顺序遍历字典中的所有键</a></li><li><a href=#634-遍历字典中的所有值>6.3.4 遍历字典中的所有值</a></li></ul></li><li><a href=#64-嵌套>6.4 嵌套</a><ul><li><a href=#641-字典列表>6.4.1 字典列表</a></li><li><a href=#642-在字典中存储列表>6.4.2 在字典中存储列表</a></li><li><a href=#643-在字典中存储字典>6.4.3 在字典中存储字典</a></li></ul></li><li><a href=#65-小结>6.5 小结</a></li></ul></nav></div></div></div></div><div class="page-links d-none d-xl-block"><h3>On this page</h3><nav id=TableOfContents><ul><li><a href=#61-一个简单的字典>6.1 一个简单的字典</a></li><li><a href=#62-使用字典>6.2 使用字典</a><ul><li><a href=#621-访问字典中的值>6.2.1 访问字典中的值</a></li><li><a href=#622-添加键-值对>6.2.2 添加键-值对</a></li><li><a href=#623-先创建一个空字典>6.2.3 先创建一个空字典</a></li><li><a href=#624-修改字典中的值>6.2.4 修改字典中的值</a></li><li><a href=#625-删除键-值对>6.2.5 删除键-值对</a></li><li><a href=#626-由类似对象组成的字典>6.2.6 由类似对象组成的字典</a></li></ul></li><li><a href=#63-遍历字典>6.3 遍历字典</a><ul><li><a href=#631-遍历所有的键-值对>6.3.1 遍历所有的键-值对</a></li><li><a href=#632-遍历字典中的所有键>6.3.2 遍历字典中的所有键</a></li><li><a href=#633-按顺序遍历字典中的所有键>6.3.3 按顺序遍历字典中的所有键</a></li><li><a href=#634-遍历字典中的所有值>6.3.4 遍历字典中的所有值</a></li></ul></li><li><a href=#64-嵌套>6.4 嵌套</a><ul><li><a href=#641-字典列表>6.4.1 字典列表</a></li><li><a href=#642-在字典中存储列表>6.4.2 在字典中存储列表</a></li><li><a href=#643-在字典中存储字典>6.4.3 在字典中存储字典</a></li></ul></li><li><a href=#65-小结>6.5 小结</a></li></ul></nav></div></nav><h1 id=06第六章-字典>06.第六章 字典 <a href=#06%e7%ac%ac%e5%85%ad%e7%ab%a0-%e5%ad%97%e5%85%b8 class=anchor aria-hidden=true>#</a></h1><h2 id=61-一个简单的字典>6.1 一个简单的字典 <a href=#61-%e4%b8%80%e4%b8%aa%e7%ae%80%e5%8d%95%e7%9a%84%e5%ad%97%e5%85%b8 class=anchor aria-hidden=true>#</a></h2><p>来看一个游戏，其中包含一些外星人，这些外星人的颜色和点数各不相同。下面是一个简单的字典，存储了有关特定外星人的信息：</p><pre><code class=language-python>alien_0 = {'color': 'green', 'points': 5}
+print(alien_0['color'])
+print(alien_0['points'])
+</code></pre><p>字典alien_0存储了外星人的颜色和点数。使用两条print语句来访问并打印这些信息，如下所示：</p><pre><code class=language-python>green
+5
+</code></pre><p><a name=828e26a1></a></p><h2 id=62-使用字典>6.2 使用字典 <a href=#62-%e4%bd%bf%e7%94%a8%e5%ad%97%e5%85%b8 class=anchor aria-hidden=true>#</a></h2><p>在Python中，字典是一系列键—值对。每个键都与一个值相关联，你可以使用键来访问与之相关联的值。与键相关联的值可以是数字、字符串、列表乃至字典。事实上，可将任何Python对象用作字典中的值。<br>在Python中，字典用放在花括号{}中的一系列键—值对表示，如前面的示例所示：</p><pre><code class=language-python>alien_0 = {'color': 'green', 'points': 5}
+</code></pre><p>键—值对是两个相关联的值。指定键时，Python将返回与之相关联的值。键和值之间用冒号分隔，而键—值对之间用逗号分隔。在字典中，你想存储多少个键—值对都可以。<br>最简单的字典只有一个键—值对，如下述修改后的字典alien_0所示：</p><pre><code class=language-python>alien_0 = {'color': 'green'}
+</code></pre><p>这个字典只存储了一项有关alien_0的信息，具体地说是这个外星人的颜色。在这个字典中，字符串&rsquo;color&rsquo;是一个键，与之相关联的值为&rsquo;green&rsquo;。</p><p><a name=43f026d3></a></p><h3 id=621-访问字典中的值>6.2.1 访问字典中的值 <a href=#621-%e8%ae%bf%e9%97%ae%e5%ad%97%e5%85%b8%e4%b8%ad%e7%9a%84%e5%80%bc class=anchor aria-hidden=true>#</a></h3><p>要获取与键相关联的值，可依次指定字典名和放在方括号内的键，如下所示：</p><pre><code class=language-python>alien_0 = {'color': 'green'}
+print(alien_0['color'])
+</code></pre><p>这将返回字典alien_0中与键&rsquo;color&rsquo;相关联的值：</p><pre><code class=language-python>green
+</code></pre><p>字典中可包含任意数量的键—值对。<br>现在，你可以访问外星人alien_0的颜色和点数。如果玩家射杀了这个外星人，你就可以使用下面的代码来确定玩家应获得多少个点：</p><pre><code class=language-python>alien_0 = {'color': 'green', 'points': 5}
+new_points = alien_0['points']
+print(&quot;You just earned &quot; + str(new_points) + &quot; points!&quot;)
+</code></pre><p>上述代码首先定义了一个字典，然后从这个字典中获取与键&rsquo;points&rsquo;相关联的值，并将这个值存储在变量new_points中。接下来，将这个整数转换为字符串，并打印一条消息，指出玩家获得了多少个点：</p><pre><code class=language-python>You just earned 5 points!
+</code></pre><p><a name=90b8154a></a></p><h3 id=622-添加键-值对>6.2.2 添加键-值对 <a href=#622-%e6%b7%bb%e5%8a%a0%e9%94%ae-%e5%80%bc%e5%af%b9 class=anchor aria-hidden=true>#</a></h3><p>字典是一种动态结构，可随时在其中添加键—值对。要添加键—值对，可依次指定字典名、用方括号括起的键和相关联的值。</p><pre><code class=language-python>alien_0 = {'color': 'green', 'points': 5}
+print(alien_0)
+alien_0['x_position'] = 0
+alien_0['y_position'] = 25
+print(alien_0)
+</code></pre><pre><code class=language-python>{'color': 'green', 'points': 5}
+{'color': 'green', 'points': 5, 'y_position': 25, 'x_position': 0}
+</code></pre><p><a name=34e6857f></a></p><h3 id=623-先创建一个空字典>6.2.3 先创建一个空字典 <a href=#623-%e5%85%88%e5%88%9b%e5%bb%ba%e4%b8%80%e4%b8%aa%e7%a9%ba%e5%ad%97%e5%85%b8 class=anchor aria-hidden=true>#</a></h3><p>有时候，在空字典中添加键—值对是为了方便，而有时候必须这样做。为此，可先使用一对空的花括号定义一个字典，再分行添加各个键—值对。</p><pre><code class=language-python>alien_0 = {}
+alien_0['color'] = 'green'
+alien_0['points'] = 5
+print(alien_0)
+</code></pre><p>这里首先定义了空字典alien_0，再在其中添加颜色和点数，得到前述示例一直在使用的字典：</p><pre><code class=language-python>{'color': 'green', 'points': 5}
+</code></pre><p>使用字典来存储用户提供的数据或在编写能自动生成大量键—值对的代码时，通常都需要先定义一个空字典。</p><p><a name=34d988a1></a></p><h3 id=624-修改字典中的值>6.2.4 修改字典中的值 <a href=#624-%e4%bf%ae%e6%94%b9%e5%ad%97%e5%85%b8%e4%b8%ad%e7%9a%84%e5%80%bc class=anchor aria-hidden=true>#</a></h3><p>要修改字典中的值，可依次指定字典名、用方括号括起的键以及与该键相关联的新值。</p><pre><code class=language-python>alien_0 = {'color': 'green'}
+print(&quot;The alien is &quot; + alien_0['color'] + &quot;.&quot;)
+alien_0['color'] = 'yellow'
+print(&quot;The alien is now &quot; + alien_0['color'] + &quot;.&quot;)
+</code></pre><pre><code class=language-python>The alien is green.
+The alien is now yellow.
+</code></pre><p>来看一个更有趣的例子：对一个能够以不同速度移动的外星人的位置进行跟踪。为此，我们将存储该外星人的当前速度，并据此确定该外星人将向右移动多远：</p><pre><code class=language-python>alien_0 = {'x_position': 0, 'y_position': 25, 'speed': 'medium'}
+print(&quot;Original x-position: &quot; + str(alien_0['x_position']))
+# 向右移动外星人
+# 据外星人当前速度决定将其移动多远
+ if alien_0['speed'] == 'slow':
+    x_increment = 1
+elif alien_0['speed'] == 'medium':
+    x_increment = 2
+else:
+ # 这个外星人的速度一定很快
+   x_increment = 3
+# 新位置等于老位置加上增量
+alien_0['x_position'] = alien_0['x_position'] + x_increment
+print(&quot;New x-position: &quot; + str(alien_0['x_position']))
+</code></pre><p>我们首先定义了一个外星人，其中包含初始的x坐标和y坐标，还有速度&rsquo;medium&rsquo;。使用了一个if-elif-else结构来确定外星人应向右移动多远，并将这个值存储在变量x_increment中。如果外星人的速度为&rsquo;slow&rsquo;，它将向右移动一个单位；如果速度为&rsquo;medium&rsquo;，将向右移动两个单位；如果为&rsquo;fast&rsquo;，将向右移动三个单位。确定移动量后，将其与x_position的当前值相加，再将结果关联到字典中的键x_position。</p><pre><code class=language-python>Original x-position: 0
+New x-position: 2
+</code></pre><p>要将这个速度中等的外星人变成速度很快的外星人，可添加如下代码行：</p><pre><code class=language-python>alien_0['speed'] = fast
+</code></pre><p>再次运行这些代码时，其中的if-elif-else结构将把一个更大的值赋给变量x_increment。</p><p><a name=0e1067ac></a></p><h3 id=625-删除键-值对>6.2.5 删除键-值对 <a href=#625-%e5%88%a0%e9%99%a4%e9%94%ae-%e5%80%bc%e5%af%b9 class=anchor aria-hidden=true>#</a></h3><p>对于字典中不再需要的信息，可使用del语句将相应的键—值对彻底删除。使用del语句时，必须指定字典名和要删除的键。</p><pre><code class=language-python>alien_0 = {'color': 'green', 'points': 5}
+print(alien_0)
+del alien_0['points']
+print(alien_0)
+</code></pre><pre><code class=language-python>{'color': 'green', 'points': 5}
+{'color': 'green'}
+</code></pre><p>注意： 删除的键—值对永远消失了。</p><p><a name=fb39ede2></a></p><h3 id=626-由类似对象组成的字典>6.2.6 由类似对象组成的字典 <a href=#626-%e7%94%b1%e7%b1%bb%e4%bc%bc%e5%af%b9%e8%b1%a1%e7%bb%84%e6%88%90%e7%9a%84%e5%ad%97%e5%85%b8 class=anchor aria-hidden=true>#</a></h3><p>在前面的示例中，字典存储的是一个对象（游戏中的一个外星人）的多种信息，但你也可以使用字典来存储众多对象的同一种信息。</p><pre><code class=language-python>favorite_languages = {
+ 'jen': 'python',
+ 'sarah': 'c',
+ 'edward': 'ruby',
+ 'phil': 'python',
+ }
+  print(&quot;Sarah's favorite language is &quot; +
+ favorite_languages['sarah'].title() + &quot;.&quot;)
+</code></pre><pre><code class=language-python>Sarah's favorite language is C.
+</code></pre><p><a name=43fd035b></a></p><h2 id=63-遍历字典>6.3 遍历字典 <a href=#63-%e9%81%8d%e5%8e%86%e5%ad%97%e5%85%b8 class=anchor aria-hidden=true>#</a></h2><p><a name=8f5718d9></a></p><h3 id=631-遍历所有的键-值对>6.3.1 遍历所有的键-值对 <a href=#631-%e9%81%8d%e5%8e%86%e6%89%80%e6%9c%89%e7%9a%84%e9%94%ae-%e5%80%bc%e5%af%b9 class=anchor aria-hidden=true>#</a></h3><p>下面的字典存储一名用户的用户名、名和姓，可以使用一个for循环来遍历这个字典：：</p><pre><code class=language-python>user_0 = {
+ 'username': 'efermi',
+ 'first': 'enrico',
+ 'last': 'fermi',
+ }
+ for key, value in user_0.items():
+   print(&quot;\nKey: &quot; + key)
+   print(&quot;Value: &quot; + value)
+</code></pre><p>要编写用于遍历字典的for循环，可声明两个变量，用于存储键—值对中的键和值。对于这两个变量，可使用任何名称。下面的代码使用了简单的变量名，这完全可行：</p><pre><code class=language-python>for k, v in user_0.items()
+</code></pre><p>for语句的第二部分包含字典名和方法items()，它返回一个键—值对列表。</p><pre><code class=language-python>Key: last
+Value: fermi
+Key: first
+Value: enrico
+Key: username
+Value: efermi
+</code></pre><p>注意，即便遍历字典时，键—值对的返回顺序也与存储顺序不同。Python不关心键—值对的存储顺序，而只跟踪键和值之间的关联关系。</p><pre><code class=language-python>favorite_languages = {
+ 'jen': 'python',
+ 'sarah': 'c',
+ 'edward': 'ruby',
+ 'phil': 'python',
+ }
+for name, language in favorite_languages.items():
+   print(name.title() + &quot;'s favorite language is &quot; +  language.title() + &quot;.&quot;)
+</code></pre><p>这些描述性名称能够让人非常轻松地明白print语句是做什么的。</p><pre><code class=language-python>Jen's favorite language is Python.
+Sarah's favorite language is C.
+Phil's favorite language is Python.
+Edward's favorite language is Ruby
+</code></pre><p><a name=567d77ff></a></p><h3 id=632-遍历字典中的所有键>6.3.2 遍历字典中的所有键 <a href=#632-%e9%81%8d%e5%8e%86%e5%ad%97%e5%85%b8%e4%b8%ad%e7%9a%84%e6%89%80%e6%9c%89%e9%94%ae class=anchor aria-hidden=true>#</a></h3><p>在不需要使用字典中的值时，方法keys()很有用。下面来遍历字典favorite_languages，并将每个被调查者的名字都打印出来：</p><pre><code class=language-python>favorite_languages = {
+ 'jen': 'python',
+ 'sarah': 'c',
+ 'edward': 'ruby',
+ 'phil': 'python',
+ }
+for name in favorite_languages.keys():
+  print(name.title())
+</code></pre><pre><code class=language-python>Jen
+Sarah
+Phil
+Edward
+</code></pre><p>遍历字典时，会默认遍历所有的键，因此，如果将上述代码中的for name in favorite_ languages.keys():替换为for name in favorite_languages:，输出将不变。<br>在这种循环中，可使用当前键来访问与之相关联的值。下面来打印两条消息，指出两位朋友喜欢的语言。</p><pre><code class=language-python>favorite_languages = {
+ 'jen': 'python',
+ 'sarah': 'c',
+ 'edward': 'ruby',
+ 'phil': 'python',
+ }
+friends = ['phil', 'sarah']
+for name in favorite_languages.keys():
+   print(name.title())
+  if name in friends:
+     print(&quot; Hi &quot; + name.title() +
+      &quot;, I see your favorite language is &quot; +
+      favorite_languages[name].title() + &quot;!&quot;)
+</code></pre><p>每个人的名字都会被打印，但只对朋友打印特殊消息</p><pre><code class=language-python>Edward
+Phil
+ Hi Phil, I see your favorite language is Python!
+Sarah
+ Hi Sarah, I see your favorite language is C!
+Jen
+</code></pre><p>你还可以使用keys()确定某个人是否接受了调查。下面的代码确定Erin是否接受了调查：</p><pre><code class=language-python>favorite_languages = {
+ 'jen': 'python',
+ 'sarah': 'c',
+ 'edward': 'ruby',
+ 'phil': 'python',
+ }
+if 'erin' not in favorite_languages.keys():
+    print(&quot;Erin, please take our poll!&quot;)
+</code></pre><p>方法keys()并非只能用于遍历；实际上，它返回一个列表，其中包含字典中的所有键，因此1处的代码行只是核实&rsquo;erin&rsquo;是否包含在这个列表中。由于她并不包含在这个列表中，因此打印<br>一条消息，邀请她参加调查：</p><pre><code class=language-python>Erin, please take our poll!
+</code></pre><p><a name=3f459850></a></p><h3 id=633-按顺序遍历字典中的所有键>6.3.3 按顺序遍历字典中的所有键 <a href=#633-%e6%8c%89%e9%a1%ba%e5%ba%8f%e9%81%8d%e5%8e%86%e5%ad%97%e5%85%b8%e4%b8%ad%e7%9a%84%e6%89%80%e6%9c%89%e9%94%ae class=anchor aria-hidden=true>#</a></h3><p>字典总是明确地记录键和值之间的关联关系，但获取字典的元素时，获取顺序是不可预测的。这不是问题，因为通常你想要的只是获取与键相关联的正确的值。<br>要以特定的顺序返回元素，一种办法是在for循环中对返回的键进行排序。为此，可使用函数sorted()来获得按特定顺序排列的键列表的副本：</p><pre><code class=language-python>favorite_languages = {
+ 'jen': 'python',
+ 'sarah': 'c',
+ 'edward': 'ruby',
+ 'phil': 'python',
+ }
+for name in sorted(favorite_languages.keys()):
+ print(name.title() + &quot;, thank you for taking the poll.&quot;)
+</code></pre><p>这条for语句类似于其他for语句，但对方法dictionary.keys()的结果调用了函数sorted()。这让Python列出字典中的所有键，并在遍历前对这个列表进行排序。输出表明，按顺序显示了所<br>有被调查者的名字：</p><pre><code class=language-python>Edward, thank you for taking the poll.
+Jen, thank you for taking the poll.
+Phil, thank you for taking the poll.
+Sarah, thank you for taking the poll.
+</code></pre><p><a name=ee6511ca></a></p><h3 id=634-遍历字典中的所有值>6.3.4 遍历字典中的所有值 <a href=#634-%e9%81%8d%e5%8e%86%e5%ad%97%e5%85%b8%e4%b8%ad%e7%9a%84%e6%89%80%e6%9c%89%e5%80%bc class=anchor aria-hidden=true>#</a></h3><p>如果你感兴趣的主要是字典包含的值，可使用方法values()，它返回一个值列表，而不包含任何键。</p><pre><code class=language-python>favorite_languages = {
+ 'jen': 'python',
+ 'sarah': 'c',
+ 'edward': 'ruby',
+ 'phil': 'python',
+ }
+print(&quot;The following languages have been mentioned:&quot;)
+for language in favorite_languages.values():
+  print(language.title())
+</code></pre><p>这条for语句提取字典中的每个值，并将它们依次存储到变量language中。通过打印这些值，就获得了一个列表，其中包含被调查者选择的各种语言：</p><pre><code class=language-python>The following languages have been mentioned:
+Python
+C
+Python
+Ruby
+</code></pre><p>为剔除重复项，可使用集合（set）。集合类似于列表，但每个元素都必须是独一无二的：</p><pre><code class=language-python>favorite_languages = {
+ 'jen': 'python',
+ 'sarah': 'c',
+ 'edward': 'ruby',
+ 'phil': 'python',
+ }
+print(&quot;The following languages have been mentioned:&quot;)
+for language in set(favorite_languages.values()):
+  print(language.title())
+</code></pre><p>结果是一个不重复的列表，其中列出了被调查者提及的所有语言：</p><pre><code class=language-python>The following languages have been mentioned:
+Python
+C
+Ruby
+</code></pre><p><a name=644c0318></a></p><h2 id=64-嵌套>6.4 嵌套 <a href=#64-%e5%b5%8c%e5%a5%97 class=anchor aria-hidden=true>#</a></h2><p>有时候，需要将一系列字典存储在列表中，或将列表作为值存储在字典中，这称为嵌套。你可以在列表中嵌套字典、在字典中嵌套列表甚至在字典中嵌套字典。</p><p><a name=03a83e9e></a></p><h3 id=641-字典列表>6.4.1 字典列表 <a href=#641-%e5%ad%97%e5%85%b8%e5%88%97%e8%a1%a8 class=anchor aria-hidden=true>#</a></h3><p>我们首先创建了三个字典，其中每个字典都表示一个外星人。</p><pre><code class=language-python>alien_0 = {'color': 'green', 'points': 5}
+alien_1 = {'color': 'yellow', 'points': 10}
+alien_2 = {'color': 'red', 'points': 15}
+aliens = [alien_0, alien_1, alien_2]
+for alien in aliens:
+   print(alien)
+</code></pre><pre><code class=language-python>{'color': 'green', 'points': 5}
+{'color': 'yellow', 'points': 10}
+{'color': 'red', 'points': 15}
+</code></pre><p>我们使用range()生成了30个外星人：</p><pre><code class=language-python># 创建一个用于存储外星人的空列表
+aliens = []
+# 创建30个绿色的外星人
+for alien_number in range(30):
+new_alien = {'color': 'green', 'points': 5, 'speed': 'slow'}
+aliens.append(new_alien)
+ # 显示前五个外星人
+for alien in aliens[:5]:
+   print(alien)
+print(&quot;...&quot;)
+# 显示创建了多少个外星人
+print(&quot;Total number of aliens: &quot; + str(len(aliens)))
+</code></pre><p>range()返回一系列数字，其唯一的用途是告诉Python我们要重复这个循环多少次。每次执行这个循环时，都创建一个外星人，并将其附加到列表aliens末尾。使用一个切片来打印前五个外星人。</p><pre><code class=language-python>{'speed': 'slow', 'color': 'green', 'points': 5}
+{'speed': 'slow', 'color': 'green', 'points': 5}
+{'speed': 'slow', 'color': 'green', 'points': 5}
+{'speed': 'slow', 'color': 'green', 'points': 5}
+{'speed': 'slow', 'color': 'green', 'points': 5}
+...
+Total number of aliens: 30
+</code></pre><p>这些外星人都具有相同的特征，但在Python看来，每个外星人都是独立的，这让我们能够独立地修改每个外星人。<br>必要时，我们可以使用for循环和if语句来修改某些外星人的颜色。</p><pre><code class=language-python># 创建一个用于存储外星人的空列表
+aliens = []
+# 创建30个绿色的外星人
+for alien_number in range (0,30):
+   new_alien = {'color': 'green', 'points': 5, 'speed': 'slow'}
+   aliens.append(new_alien)
+
+for alien in aliens[0:3]:
+  if alien['color'] == 'green':
+   alien['color'] = 'yellow'
+   alien['speed'] = 'medium'
+   alien['points'] = 10
+
+# 显示前五个外星人
+for alien in aliens[0:5]:
+  print(alien)
+print(&quot;...&quot;)
+</code></pre><p>鉴于我们要修改前三个外星人，需要遍历一个只包含这些外星人的切片。当前，所有外星人都是绿色的，但情况并非总是如此，因此我们编写了一条if语句来确保只修改绿色外星人。如果外星人是绿色的，我们就将其颜色改为&rsquo;yellow&rsquo;，将其速度改为&rsquo;medium&rsquo;，并将其点数改为10，如下面的输出所示：</p><pre><code class=language-python>{'speed': 'medium', 'color': 'yellow', 'points': 10}
+{'speed': 'medium', 'color': 'yellow', 'points': 10}
+{'speed': 'medium', 'color': 'yellow', 'points': 10}
+{'speed': 'slow', 'color': 'green', 'points': 5}
+{'speed': 'slow', 'color': 'green', 'points': 5}
+...
+</code></pre><p>你可以进一步扩展这个循环，在其中添加一个elif代码块，将黄色外星人改为移动速度快且值15个点的红色外星人，如下所示（这里只列出了循环，而没有列出整个程序）：</p><pre><code class=language-python>for alien in aliens[0:3]:
+  if alien['color'] == 'green':
+    alien['color'] = 'yellow'
+    alien['speed'] = 'medium'
+    alien['points'] = 10
+  elif alien['color'] == 'yellow':
+    alien['color'] = 'red'
+    alien['speed'] = 'fast'
+    alien['points'] = 15
+</code></pre><p><a name=72bfa1ef></a></p><h3 id=642-在字典中存储列表>6.4.2 在字典中存储列表 <a href=#642-%e5%9c%a8%e5%ad%97%e5%85%b8%e4%b8%ad%e5%ad%98%e5%82%a8%e5%88%97%e8%a1%a8 class=anchor aria-hidden=true>#</a></h3><p>有时候，需要将列表存储在字典中，而不是将字典存储在列表中。<br>在下面的示例中，存储了比萨的两方面信息：外皮类型和配料列表。其中的配料列表是一个与键&rsquo;toppings&rsquo;相关联的值。要访问该列表，我们使用字典名和键&rsquo;toppings&rsquo;，就像访问字典中<br>的其他值一样。这将返回一个配料列表，而不是单个值：</p><pre><code class=language-python> # 存储所点比萨的信息
+ pizza = {
+ 'crust': 'thick',
+ 'toppings': ['mushrooms', 'extra cheese'],
+ }
+# 概述所点的比萨
+ print(&quot;You ordered a &quot; + pizza['crust'] + &quot;-crust pizza &quot; +
+  &quot;with the following toppings:&quot;)
+ for topping in pizza['toppings']:
+   print(&quot;\t&quot; + topping)
+</code></pre><pre><code class=language-python>You ordered a thick-crust pizza with the following toppings:
+ mushrooms
+ extra cheese
+</code></pre><p>每当需要在字典中将一个键关联到多个值时，都可以在字典中嵌套一个列表。</p><pre><code class=language-python>favorite_languages = {
+ 'jen': ['python', 'ruby'],
+ 'sarah': ['c'],
+ 'edward': ['ruby', 'go'],
+ 'phil': ['python', 'haskell'],
+ }
+for name, languages in favorite_languages.items():
+   print(&quot;\n&quot; + name.title() + &quot;'s favorite languages are:&quot;)
+for language in languages:
+  print(&quot;\t&quot; + language.title())
+</code></pre><pre><code class=language-python>Jen's favorite languages are:
+ Python
+ Ruby
+Sarah's favorite languages are:
+ C
+Phil's favorite languages are:
+ Python
+ Haskell
+Edward's favorite languages are:
+ Ruby
+ Go
+</code></pre><p><a name=ee1b9e2a></a></p><h3 id=643-在字典中存储字典>6.4.3 在字典中存储字典 <a href=#643-%e5%9c%a8%e5%ad%97%e5%85%b8%e4%b8%ad%e5%ad%98%e5%82%a8%e5%ad%97%e5%85%b8 class=anchor aria-hidden=true>#</a></h3><p>可在字典中嵌套字典，但这样做时，代码可能很快复杂起来。</p><pre><code class=language-python>users = {
+ 'aeinstein': {
+ 'first': 'albert',
+ 'last': 'einstein',
+ 'location': 'princeton',
+ },
+ 'mcurie': {
+ 'first': 'marie',
+ 'last': 'curie',
+ 'location': 'paris',
+ },
+ }
+for username, user_info in users.items():
+   print(&quot;\nUsername: &quot; + username)
+   full_name = user_info['first'] + &quot; &quot; + user_info['last']
+   location = user_info['location']
+   print(&quot;\tFull name: &quot; + full_name.title())
+   print(&quot;\tLocation: &quot; + location.title())
+</code></pre><p>我们首先定义了一个名为users的字典，其中包含两个键：用户名&rsquo;aeinstein&rsquo;和&rsquo;mcurie&rsquo;；与每个键相关联的值都是一个字典，其中包含用户的名、姓和居住地。</p><pre><code class=language-python>Username: aeinstein
+  Full name: Albert Einstein
+  Location: Princeton
+Username: mcurie
+  Full name: Marie Curie
+  Location: Paris
+</code></pre><p>请注意，表示每位用户的字典的结构都相同，虽然Python并没有这样的要求，但这使得嵌套的字典处理起来更容易。倘若表示每位用户的字典都包含不同的键，for循环内部的代码将更复杂。</p><p><a name=0783ec21></a></p><h2 id=65-小结>6.5 小结 <a href=#65-%e5%b0%8f%e7%bb%93 class=anchor aria-hidden=true>#</a></h2><p>在本章中，你学习了：如何定义字典，以及如何使用存储在字典中的信息；如何访问和修改字典中的元素，以及如何遍历字典中的所有信息；如何遍历字典中所有的键值对、所有的键和所有的值；如何在列表中嵌套字典、在字典中嵌套列表以及在字典中嵌套字典。<br>在下一章中，你将学习while循环以及如何从用户那里获取输入。这是激动人心的一章，让你知道如何将程序变成交互性的——能够对用户输入作出响应。</p><div class="page-footer-meta d-flex flex-column flex-md-row justify-content-between"></div><div class="docs-navigation d-flex justify-content-between"><a href=www.lovecode.icu/docs/python/python%E5%9F%BA%E7%A1%80/05.%E7%AC%AC%E4%BA%94%E7%AB%A0-if%E8%AF%AD%E5%8F%A5/><div class="card my-1"><div class="card-body py-2">&larr; 05.第五章 if语句</div></div></a><a class=ms-auto href=www.lovecode.icu/docs/python/django/django-orm/><div class="card my-1"><div class="card-body py-2">Django ORM &rarr;</div></div></a></div></main></div></div></div><footer class="footer text-muted"><div class=container-xxl><div class=row><div class="col-lg-8 order-last order-lg-first"><ul class=list-inline><li class=list-inline-item>Powered by <a class=text-muted href=https://gohugo.io/>Hugo</a>, and <a class=text-muted href=https://getdoks.org/>Doks</a></li></ul></div><div class="col-lg-8 order-first order-lg-last text-lg-end"><ul class=list-inline></ul></div></div></div></footer><script src=www.lovecode.icu/js/bootstrap.min.54bf0932b8a36d0e152b1635b099a6ef1394d35327e2437550a075c9c8ed1bd8aed5847c21b36fc02ed24014c031d9ca24017b0c78b1639d7e2fa8329898b842.js integrity="sha512-VL8JMrijbQ4VKxY1sJmm7xOU01Mn4kN1UKB1ycjtG9iu1YR8IbNvwC7SQBTAMdnKJAF7DHixY51+L6gymJi4Qg==" crossorigin=anonymous defer></script>
+<script src=www.lovecode.icu/js/highlight.min.56a414730f1135fe77b5ea30bf74a2cc4101a6f386e85e5b789c800570cc33d33054000f45932c053a59b41018f72687867254a80e1b9710671852492533162f.js integrity="sha512-VqQUcw8RNf53teowv3SizEEBpvOG6F5beJyABXDMM9MwVAAPRZMsBTpZtBAY9yaHhnJUqA4blxBnGFJJJTMWLw==" crossorigin=anonymous defer></script>
+<script src=www.lovecode.icu/main.min.162c56a0426544de0d010e66c56e321579655c400c9aae06a6823e7682de379adadf2165bd416fea191e4e7e410fbf1fd2c35a759aa43ff2e3787067669bf81b.js integrity="sha512-FixWoEJlRN4NAQ5mxW4yFXllXEAMmq4GpoI+doLeN5ra3yFlvUFv6hkeTn5BD78f0sNadZqkP/LjeHBnZpv4Gw==" crossorigin=anonymous defer></script>
+<script src=www.lovecode.icu/www.lovecode.icu/index.min.5d884ee8159b01f6e70bccff2c40af017572e38e65546080396739dbfa157430634d34c8c3327dfb63fd0206d43a9fd2155de99abf59b1e00aef6ca484417778.js integrity="sha512-XYhO6BWbAfbnC8z/LECvAXVy445lVGCAOWc52/oVdDBjTTTIwzJ9+2P9AgbUOp/SFV3pmr9ZseAK72ykhEF3eA==" crossorigin=anonymous defer></script></body></html>
